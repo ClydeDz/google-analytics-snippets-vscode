@@ -1,7 +1,7 @@
 {
 	"name": "google-analytics-snippets-vscode",
 	"displayName": "Google Analytics Snippets for VS Code",
-	"description": "Snippet Sample",
+	"description": "Google Analytics Snippet Pack helps you write global site tag (gtag.js) code that allows you to send event data to Google Analytics.",
 	"version": "0.1.0",
 	"publisher": "clydedsouza",
 	"engines": {
@@ -27,10 +27,14 @@
 		"Snippets"
 	],
 	"contributes": {
-		"snippets": [
+		"snippets": [ 
 			{
 				"language": "javascript",
 				"path": "./snippets/javascript.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/html.json"
 			}
 		]
 	},

@@ -1,0 +1,176 @@
+{
+	"Install the global tracking snippet": {
+		"prefix": "ga:bi",
+		"body": [
+			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
+			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
+			"<script>",
+			"  window.dataLayer = window.dataLayer || [];",
+			"  function gtag(){dataLayer.push(arguments);}",
+			"  gtag('js', new Date());",
+			"  ",
+			"  gtag('config', '${GTM:UA-XYXYXYXYXY-X}$1');",
+			"</script>"
+		],
+		"description": "Install the global tracking snippet immediately after the head tag on every page of your site. You only require one global snippet per page."
+	},
+	"Install and configure a second Google Analytics property": {
+		"prefix": "ga:itp",
+		"body": [
+			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
+			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
+			"<script>",
+			"  window.dataLayer = window.dataLayer || [];",
+			"  function gtag(){dataLayer.push(arguments);}",
+			"  gtag('js', new Date());",
+			"  ",
+			"  gtag('config', '${GTM:UA-XYXYXYXYXY-X}$1');",
+			"  gtag('config', '${GTM:UA-XYXYXYXYXY-Y}$2');",
+			"</script>"
+		],
+		"description": "Install the global tracking snippet immediately after the head tag on every page of your site. Configured to support two Google Analytics properties. You only require one global snippet per page."
+	},
+	"Anonymize IP address and install the global tracking snippet": {
+		"prefix": "ga:biip",
+		"body": [
+			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
+			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
+			"<script>",
+			"  window.dataLayer = window.dataLayer || [];",
+			"  function gtag(){dataLayer.push(arguments);}",
+			"  gtag('js', new Date());",
+			"  ",
+			"  gtag('config', '${GTM:UA-XYXYXYXYXY-X}$1', { 'anonymize_ip': true });",
+			"</script>"
+		],
+		"description": "Install the global tracking snippet immediately after the head tag on every page of your site. You only require one global snippet per page. IP anonymized."
+	},
+	"Customize the cookie settings": {
+		"prefix": "ga:coki",
+		"body": [
+			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
+			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
+			"<script>",
+			"  window.dataLayer = window.dataLayer || [];",
+			"  function gtag(){dataLayer.push(arguments);}",
+			"  gtag('js', new Date());",
+			"  ",
+			"  gtag('config', '${GTM:UA-XYXYXYXYXY-X}$1', {",
+			"    'cookie_name': '${GTMA:sample-cookie-name}$2',",
+			"    'cookie_domain': '${GTMA:sample-cookie-domain}$3',",
+			"    'cookie_expires': ${GTMA:sample-cookie-expiry}$4",
+			"  });",
+			"</script>"
+		],
+		"description": "Customize the cookie settings."
+	},
+	"Configure custom dimensions": {
+		"prefix": "ga:cdim",
+		"body": [
+			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
+			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
+			"<script>",
+			"  window.dataLayer = window.dataLayer || [];",
+			"  function gtag(){dataLayer.push(arguments);}",
+			"  gtag('js', new Date());",
+			"  ",
+			"  gtag('config', '${GTM:UA-XYXYXYXYXY-X}$1', {",
+			"    'custom_map': { 'dimension${GTMA:sample-dimension-index}$2': '${GTMB:sample-dimension-name}$3' }",
+			"  });",
+			"</script>"
+		],
+		"description": "Send a custom dimension to Google Analytics."
+	},
+	"Configure custom metric": {
+		"prefix": "ga:cmtrc",
+		"body": [
+			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
+			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
+			"<script>",
+			"  window.dataLayer = window.dataLayer || [];",
+			"  function gtag(){dataLayer.push(arguments);}",
+			"  gtag('js', new Date());",
+			"  ",
+			"  gtag('config', '${GTM:UA-XYXYXYXYXY-X}$1', {",
+			"    'custom_map': { 'metric${GTMA:sample-metric-index}$2': '${GTMB:sample-metric-name}$3' }",
+			"  });",
+			"</script>"
+		],
+		"description": "Send a custom metric to Google Analytics."
+	},
+	"Disable pageview tracking": {
+		"prefix": "ga:dpv",
+		"body": [
+			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
+			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
+			"<script>",
+			"  window.dataLayer = window.dataLayer || [];",
+			"  function gtag(){dataLayer.push(arguments);}",
+			"  gtag('js', new Date());",
+			"  ", 
+			"  gtag('config', '${GTM:UA-XYXYXYXYXY-X}$1', { 'send_page_view': false });",
+			"</script>"
+		],
+		"description": "Install the global tracking snippet immediately after the head tag on every page of your site. Configured to not send pagehits to Google Analytics. You only require one global snippet per page."
+	},
+	"Configure a different transport mechanisms - Beacon": {
+		"prefix": "ga:bcon",
+		"body": [
+			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
+			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
+			"<script>",
+			"  window.dataLayer = window.dataLayer || [];",
+			"  function gtag(){dataLayer.push(arguments);}",
+			"  gtag('js', new Date());",
+			"  ", 
+			"  gtag('config', '${GTM:UA-XYXYXYXYXY-X}$1', { 'transport_type': 'beacon'});",
+			"</script>"
+		],
+		"description": "Install the global tracking snippet immediately after the head tag on every page of your site. Configured to use the beacon transport mechanism. You only require one global snippet per page."
+	},
+	"Configure a different transport mechanisms - Image": {
+		"prefix": "ga:image",
+		"body": [
+			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
+			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
+			"<script>",
+			"  window.dataLayer = window.dataLayer || [];",
+			"  function gtag(){dataLayer.push(arguments);}",
+			"  gtag('js', new Date());",
+			"  ", 
+			"  gtag('config', '${GTM:UA-XYXYXYXYXY-X}$1', { 'transport_type': 'image'});",
+			"</script>"
+		],
+		"description": "Install the global tracking snippet immediately after the head tag on every page of your site. Configured to use the image transport mechanism. You only require one global snippet per page."
+	},
+	"Configure a different transport mechanisms - XHR": {
+		"prefix": "ga:xhr",
+		"body": [
+			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
+			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
+			"<script>",
+			"  window.dataLayer = window.dataLayer || [];",
+			"  function gtag(){dataLayer.push(arguments);}",
+			"  gtag('js', new Date());",
+			"  ", 
+			"  gtag('config', '${GTM:UA-XYXYXYXYXY-X}$1', { 'transport_type': 'xhr'});",
+			"</script>"
+		],
+		"description": "Install the global tracking snippet immediately after the head tag on every page of your site. Configured to use the XHR transport mechanism. You only require one global snippet per page."
+	},
+	"Rename global object and install the global tracking snippet": {
+		"prefix": "ga:birgtag",
+		"body": [
+			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
+			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
+			"<script>",
+			"  window.dataLayer = window.dataLayer || [];",
+			"  function gtag(){dataLayer.push(arguments);}",
+			"  ${2:globalObject}('js', new Date());",
+			"  ", 
+			"  ${2:globalObject}('config', '${GTM:UA-XYXYXYXYXY-X}$1');",
+			"</script>"
+		],
+		"description": "If you want to rename gtag() global object."
+	}
+}
