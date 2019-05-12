@@ -1,0 +1,7 @@
+demos/**
+node_modules/**
+tests/**
+images/**
+.vscode/**
+.gitignore 
+test-results.xml

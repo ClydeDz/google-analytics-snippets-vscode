@@ -1,0 +1,18 @@
+{
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+	"Print to error console": {
+		"prefix": "elog",
+		"body": [
+			"console.error('$1');",
+			"$2"
+		],
+		"description": "Log error output to console"
+	}
+}
