@@ -1,6 +1,6 @@
 {
 	"Install the global tracking snippet": {
-		"prefix": "ga:bi",
+		"prefix": "gaxinstall",
 		"body": [
 			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
 			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
@@ -15,7 +15,7 @@
 		"description": "Install the global tracking snippet immediately after the head tag on every page of your site. You only require one global snippet per page."
 	},
 	"Install and configure a second Google Analytics property": {
-		"prefix": "ga:itp",
+		"prefix": "gaxinstall2",
 		"body": [
 			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
 			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
@@ -31,7 +31,7 @@
 		"description": "Install the global tracking snippet immediately after the head tag on every page of your site. Configured to support two Google Analytics properties. You only require one global snippet per page."
 	},
 	"Anonymize IP address and install the global tracking snippet": {
-		"prefix": "ga:biip",
+		"prefix": "gaxanonip",
 		"body": [
 			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
 			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
@@ -46,7 +46,7 @@
 		"description": "Install the global tracking snippet immediately after the head tag on every page of your site. You only require one global snippet per page. IP anonymized."
 	},
 	"Customize the cookie settings": {
-		"prefix": "ga:coki",
+		"prefix": "gaxcookie",
 		"body": [
 			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
 			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
@@ -65,7 +65,7 @@
 		"description": "Customize the cookie settings."
 	},
 	"Configure custom dimensions": {
-		"prefix": "ga:cdim",
+		"prefix": "gaxdim",
 		"body": [
 			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
 			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
@@ -82,7 +82,7 @@
 		"description": "Send a custom dimension to Google Analytics."
 	},
 	"Configure custom metric": {
-		"prefix": "ga:cmtrc",
+		"prefix": "gaxmetric",
 		"body": [
 			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
 			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
@@ -99,7 +99,7 @@
 		"description": "Send a custom metric to Google Analytics."
 	},
 	"Disable pageview tracking": {
-		"prefix": "ga:dpv",
+		"prefix": "gaxnopgtrack",
 		"body": [
 			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
 			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
@@ -114,7 +114,7 @@
 		"description": "Install the global tracking snippet immediately after the head tag on every page of your site. Configured to not send pagehits to Google Analytics. You only require one global snippet per page."
 	},
 	"Configure a different transport mechanisms - Beacon": {
-		"prefix": "ga:bcon",
+		"prefix": "gaxbeacon",
 		"body": [
 			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
 			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
@@ -129,7 +129,7 @@
 		"description": "Install the global tracking snippet immediately after the head tag on every page of your site. Configured to use the beacon transport mechanism. You only require one global snippet per page."
 	},
 	"Configure a different transport mechanisms - Image": {
-		"prefix": "ga:image",
+		"prefix": "gaximage",
 		"body": [
 			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
 			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
@@ -144,7 +144,7 @@
 		"description": "Install the global tracking snippet immediately after the head tag on every page of your site. Configured to use the image transport mechanism. You only require one global snippet per page."
 	},
 	"Configure a different transport mechanisms - XHR": {
-		"prefix": "ga:xhr",
+		"prefix": "gaxxhr",
 		"body": [
 			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
 			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
@@ -159,7 +159,7 @@
 		"description": "Install the global tracking snippet immediately after the head tag on every page of your site. Configured to use the XHR transport mechanism. You only require one global snippet per page."
 	},
 	"Rename global object and install the global tracking snippet": {
-		"prefix": "ga:birgtag",
+		"prefix": "gaxvgtag",
 		"body": [
 			"$BLOCK_COMMENT_START Global site tag (gtag.js) - Google Analytics $BLOCK_COMMENT_END",
 			"<script async src=\"https://www.googletagmanager.com/gtag/js?id=${GTM:UA-XYXYXYXYXY-X}$1\"></script>",
