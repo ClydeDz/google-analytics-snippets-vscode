@@ -1,7 +1,7 @@
 const assert = require('assert'); 
 const fs = require('fs');
 
-describe('JSON snippets', function () {
+describe('JSON snippets test', function () {
   console.log("[test]", this.title);
   var allSnippets;
 
@@ -9,6 +9,17 @@ describe('JSON snippets', function () {
     var packageJSON = require('./../package.json');
     var packageJSONContents = JSON.parse(JSON.stringify(packageJSON));
     allSnippets = packageJSONContents.contributes.snippets;
+  });
+
+  it('check if JSON snippet file is named after the language identifier', function () {
+    console.log("  ", "[test]", this.test.title);
+    for (var theme = 0; theme < allSnippets.length; theme++) {
+      var filename = (allSnippets[theme].path.substring(allSnippets[theme].path.lastIndexOf('/') + 1).replace(".json",""));
+      var language = allSnippets[theme].language; 
+      console.log("\t", "[log]", "checking file:", filename, "✔️");
+      var isFilenameEqualToLanguageId = filename == language; 
+      assert.equal(isFilenameEqualToLanguageId, true, "JSON snippet file must be named after the language identifier");
+    }
   });
 
   it('check if all JSON snippet files exist', function () {
