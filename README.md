@@ -5,7 +5,8 @@ Google Analytics Snippets for Visual Studio Code helps you write global site tag
 [![Azure DevOps tests](https://img.shields.io/azure-devops/tests/clydedsouza/Google%20Analytics%20Snippet%20Pack/24.svg)](https://clydedsouza.visualstudio.com/Google%20Analytics%20Snippet%20Pack/_build/latest?definitionId=24) 
 [![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/clydedsouza.google-analytics-snippets-vscode.svg?color=green)](https://marketplace.visualstudio.com/items?itemName=clydedsouza.google-analytics-snippets-vscode) 
 [![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/clydedsouza.google-analytics-snippets-vscode.svg?color=green)](https://marketplace.visualstudio.com/items?itemName=clydedsouza.google-analytics-snippets-vscode) 
-[![GitHub](https://img.shields.io/github/license/clydedz/google-analytics-snippets-vscode.svg)](https://github.com/ClydeDz/google-analytics-snippets-vscode/)    
+[![GitHub](https://img.shields.io/github/license/clydedz/google-analytics-snippets-vscode.svg)](https://github.com/ClydeDz/google-analytics-snippets-vscode/) 
+[![Tweet](https://img.shields.io/static/v1.svg?label=Tweet%20about%20this&message=%F0%9F%8E%B5&color=blue&logo=twitter&style=social)](https://ctt.ac/KFdPc)       
 
 ## How to use?  
 The Google Analytics Snippet Pack adds snippets for HTML and JavaScript. The GIF below shows Google Analytics Snippets  being used in an HTML document.   
