@@ -21,7 +21,7 @@ If you want to submit any feedback and/or issues with this snippet pack, feel fr
 Visit the [GitHub repository](https://github.com/ClydeDz/google-analytics-snippets-vscode).   
 
 ## Using Visual Studio?   
-You can also install [Google Analytics Snippet Pack for Visual Studio](https://marketplace.visualstudio.com/items?itemName=clydedsouza.GoogleAnalyticsSnippetPack) if you're using that as your IDE.
+You can also install [Google Analytics Snippet Pack for Visual Studio](https://marketplace.visualstudio.com/items?itemName=clydedsouza.GoogleAnalyticsSnippetPack) if you're using Visual Studio as your IDE.
 
 ## Credits        
 Google Analytics Snippets (c) 2019 [Clyde D'Souza](https://clydedsouza.net/#/)
