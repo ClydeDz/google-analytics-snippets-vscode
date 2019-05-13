@@ -2,8 +2,10 @@
 Google Analytics Snippets for Visual Studio Code helps you write global site tag (gtag.js) code with ease. Google Analytics's gtag.js code allows you to send event data to Google Analytics.  
 
 [![Build status](https://clydedsouza.visualstudio.com/Google%20Analytics%20Snippet%20Pack/_apis/build/status/GA%20Snippets%20VS%20Code%20Master)](https://clydedsouza.visualstudio.com/Google%20Analytics%20Snippet%20Pack/_build/latest?definitionId=24)
-[![Azure DevOps tests](https://img.shields.io/azure-devops/tests/clydedsouza/Google%20Analytics%20Snippet%20Pack/24.svg)](https://clydedsouza.visualstudio.com/Google%20Analytics%20Snippet%20Pack/_build/latest?definitionId=24)
-[![GitHub](https://img.shields.io/github/license/clydedz/google-analytics-snippets-vscode.svg)](https://github.com/ClydeDz/google-analytics-snippets-vscode/)   
+[![Azure DevOps tests](https://img.shields.io/azure-devops/tests/clydedsouza/Google%20Analytics%20Snippet%20Pack/24.svg)](https://clydedsouza.visualstudio.com/Google%20Analytics%20Snippet%20Pack/_build/latest?definitionId=24) 
+[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/clydedsouza.google-analytics-snippets-vscode.svg?color=green)](https://marketplace.visualstudio.com/items?itemName=clydedsouza.google-analytics-snippets-vscode) 
+[![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/clydedsouza.google-analytics-snippets-vscode.svg?color=green)](https://marketplace.visualstudio.com/items?itemName=clydedsouza.google-analytics-snippets-vscode) 
+[![GitHub](https://img.shields.io/github/license/clydedz/google-analytics-snippets-vscode.svg)](https://github.com/ClydeDz/google-analytics-snippets-vscode/)    
 
 ## How to use?  
 The Google Analytics Snippet Pack adds snippets for HTML and JavaScript. The GIF below shows Google Analytics Snippets  being used in an HTML document.   
