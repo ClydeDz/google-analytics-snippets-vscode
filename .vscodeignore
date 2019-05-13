@@ -3,5 +3,6 @@ node_modules/**
 tests/**
 images/**
 .vscode/**
-.gitignore 
+.gitignore
+.vsix 
 test-results.xml
