@@ -7,7 +7,7 @@
 	"engines": {
 		"vscode": "^1.28.0"
 	},
-	"license": "MIT",
+	"license": "Apache-2.0",
 	"preview": false,
 	"repository": {
 		"type": "git",
@@ -19,9 +19,16 @@
 		"Google Analytics",
 		"Google",
 		"VS Code",
+		"Visual Studio Code",
 		"Snippet Pack",
 		"JavaScript",
-		"HTML"
+		"HTML",
+		"gtag",
+		"gtag.js",
+		"GTM",
+		"Google Analytics ID",
+		"Global Site Tag",
+		"Apache-2.0"
 	],
 	"categories": [
 		"Snippets"
