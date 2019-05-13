@@ -62,3 +62,4 @@ typings/
 
 # VSIX packages created locally
 *.vsix
+test-results.xml
