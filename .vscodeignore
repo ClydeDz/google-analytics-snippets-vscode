@@ -6,3 +6,4 @@ images/**
 .gitignore
 .vsix 
 test-results.xml
+lgtm.yml
