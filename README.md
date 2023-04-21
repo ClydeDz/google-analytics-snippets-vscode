@@ -1,33 +1,47 @@
-## Google Analytics Snippets for VS Code   
-Google Analytics Snippets for Visual Studio Code helps you write global site tag (gtag.js) code with ease. Google Analytics's gtag.js code allows you to send event data to Google Analytics.  
+<index.html>
 
-[![Build status](https://clydedsouza.visualstudio.com/Google%20Analytics%20Snippet%20Pack/_apis/build/status/GA%20Snippets%20VS%20Code%20Master)](https://clydedsouza.visualstudio.com/Google%20Analytics%20Snippet%20Pack/_build/latest?definitionId=24)
-[![Azure DevOps tests](https://img.shields.io/azure-devops/tests/clydedsouza/Google%20Analytics%20Snippet%20Pack/24.svg)](https://clydedsouza.visualstudio.com/Google%20Analytics%20Snippet%20Pack/_build/latest?definitionId=24) 
-[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/clydedsouza.google-analytics-snippets-vscode.svg?color=green)](https://marketplace.visualstudio.com/items?itemName=clydedsouza.google-analytics-snippets-vscode) 
-[![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/clydedsouza.google-analytics-snippets-vscode.svg?color=green)](https://marketplace.visualstudio.com/items?itemName=clydedsouza.google-analytics-snippets-vscode) 
-[![GitHub](https://img.shields.io/github/license/clydedz/google-analytics-snippets-vscode.svg)](https://github.com/ClydeDz/google-analytics-snippets-vscode/) 
-[![Tweet](https://img.shields.io/static/v1.svg?label=Tweet%20about%20this&message=%F0%9F%8E%B5&color=blue&logo=twitter&style=social)](https://ctt.ac/KFdPc)       
++ <head>
 
-## How to use?  
-The Google Analytics Snippet Pack adds snippets for HTML and JavaScript. The GIF below shows Google Analytics Snippets  being used in an HTML document.   
+<meta chargeset="UTF-8">
 
-![GIF showing HTML Google Analytics Snippet Pack in use](https://raw.githubusercontent.com/ClydeDz/google-analytics-snippets-vscode/master/images/html-snippet-action.gif)
++ <meta name="viewport" content="width=devi-width. inital-scale1">
 
-OR, if you would like to send an event from JavaScript, you could do something like this -
++ <title>Today'sData<title>
 
-![GIF showing JavaScript Google Analytics Snippet Pack in use](https://raw.githubusercontent.com/ClydeDz/google-analytics-snippets-vscode/master/images/js-snippet-action.gif)
+* <meta name="geo.region" content="KH">
 
-## Feedback   
-If you want to submit any feedback and/or issues with this snippet pack, feel free to [create a new ticket on GitHub](https://github.com/ClydeDz/google-analytics-snippets-vscode/issues) and let me know what you're after. Please search the issues first before creating a new one. 
+<title>Rathana phone Shop1 in Phnom Penh </title>
 
-## GitHub    
-The GitHub repository can be [found here](https://github.com/ClydeDz/google-analytics-snippets-vscode).   
+* <meta http-equiv="X-UA-Compatible" content="IE=edge"> <script
 
-## Release notes
-For detailed release notes, please visit [the releases page on GitHub](https://github.com/ClydeDz/google-analytics-snippets-vscode/releases).   
+type="text/javascript">(window. NREUM | | (NREUM={})).init={ajax: {deny_list: ["bam.nr-data.net"]}}; (window. NREUM | | (NREUM={})).loader_config=
 
-## Using Visual Studio?   
-You can also install [Google Analytics Snippet Pack for Visual Studio](https://marketplace.visualstudio.com/items?itemName=clydedsouza.GoogleAnalyticsSnippetPack) if you're using Visual Studio as your IDE.
+[licenseKey: "1e7946724e", applicationID: "31671751");;(()=>{var e,t,r= (8768: (e,t,r)=>{"use st"}
 
-## Credits        
-Google Analytics Snippets for VS Code (c) 2019 [Clyde D'Souza](https://clydedsouza.net/#/).
+<!-- Google Tag Manager -->
+
++ <script> (function(w,d,s,1,i){w[1]=w[1]|| [];w[1].push({'gtm.start':
+
+*new Date().getTime(), event: 'gtm.js'});var f=d.getElementsByTagName(s) [0],
+
++ j=d.createElement(s),dl=l!='dataLayer'?'&l='+1:'';j.async=true;j.src=
+
++ 'https://www.googletagmanager.com/gtm.js? id='+i+dl; f.parentNode.insertBefore(j, f);
+
+})(window,document, 'script', 'dataLayer', 'GTM-T5M4CWT'); </script>
+
+<!-- End Google Tag Manager -->
+
+<html analytics GA4>
+
+<body> <!-- Google Tag Manager (noscript)-->
+
++
+
++ <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM- T5M4CWT"
+
++
+
++ height="0" width="0" style="display:none;visibility:hidden"></iframe> </noscript>
+
+<!-- End Google Tag Manager (noscript) -->
